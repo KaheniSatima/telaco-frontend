@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Container for the entire app: vertical flex, full viewport height */
+.app-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
+  font-family: Arial, sans-serif; /* example font */
+  background-color: #f9f9f9; /* subtle background */
+  color: #333; /* default text color */
 }
 
-.App-link {
-  color: #61dafb;
+/* Main content area: grows to fill space, centered with max width */
+.main-content {
+  flex-grow: 1;
+  max-width: 1200px;      /* max width for large screens */
+  margin: 1.5rem auto;    /* vertical spacing, centered horizontally */
+  padding: 0 1rem;        /* horizontal padding */
+  box-sizing: border-box; /* include padding in width */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* Optional: make links and buttons visually consistent */
+a {
+  color: #0077cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #005fa3;
+  text-decoration: underline;
+}
+
+/* Responsive: reduce padding on smaller screens */
+@media (max-width: 600px) {
+  .main-content {
+    padding: 0 0.5rem;
+    margin: 1rem auto;
   }
 }

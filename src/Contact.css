@@ -1,0 +1,103 @@
+/* Main container */
+.contact-page {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Background banner */
+.contact-banner {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Overlay to darken image and contain text */
+.contact-banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  z-index: 1;
+}
+
+/* Left section */
+.banner-left {
+  flex: 1;
+  min-width: 250px;
+  padding-right: 1rem;
+}
+
+.banner-left h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.banner-message {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #f1f1f1;
+}
+
+.banner-contact {
+  font-weight: 500;
+  color: #ffcccc;
+}
+
+/* Right section */
+.banner-right {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+.banner-icon {
+  color: #ff4c4c;
+  margin-bottom: 1rem;
+}
+
+.banner-note {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #f8f8f8;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .contact-banner-overlay {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem;
+  }
+
+  .banner-left,
+  .banner-right {
+    width: 100%;
+    text-align: left;
+    padding-right: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .banner-icon {
+    font-size: 2.5rem;
+  }
+
+  .banner-note {
+    font-size: 1rem;
+  }
+}

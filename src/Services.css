@@ -1,0 +1,126 @@
+.services-page {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.services-header {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.service-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: #fff;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.service-title {
+  font-size: 1.3rem;
+  color: #222;
+  margin: 1rem 0 0.5rem;
+}
+
+.service-desc {
+  font-size: 0.95rem;
+  color: #555;
+  padding: 0 1rem 1.5rem;
+}
+
+
+
+
+
+/* Full Width Banner Section */
+.full-width-banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%); /* Neutralize container padding */
+  position: relative;
+  min-height: 300px;
+  aspect-ratio: 16 / 9; /* Maintain aspect ratio */
+  height: 400px; 
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for contrast */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content {
+  color: #fff;
+  text-align: center;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.banner-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.banner-button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #b40000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.banner-button:hover {
+  background-color: #900000;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .full-width-banner {
+    aspect-ratio: auto;
+    height: auto;
+    min-height: 300px;
+  }
+
+  .banner-text {
+    font-size: 1rem;
+  }
+
+  .banner-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}

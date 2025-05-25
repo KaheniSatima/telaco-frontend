@@ -1,0 +1,75 @@
+.footer-top-line {
+  height: 6px;
+  background-color: #fb0c0cec;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.footer {
+  background-color: #000;   /* Changed from #f1f1f1 to black */
+  padding: 3rem 2rem 1.5rem;
+  color: #fff;              /* Changed from #333 to white */
+}
+
+.footer-content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-logo {
+  width: 50px;
+  height: auto;
+}
+
+.footer-vision,
+.footer-contact,
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-contact i,
+.footer-social i {
+  margin-right: 8px;
+  color: #fff; /* Ensure icons are white */
+}
+
+.footer-contact p,
+.footer-vision p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #fff; /* Make text white */
+}
+
+.footer-social .social-icons {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.footer-social a {
+  color: #fff; /* Links default to white */
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #fb0c0cec;
+}
+
+.footer-bottom {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #fff; /* Changed to white */
+}
