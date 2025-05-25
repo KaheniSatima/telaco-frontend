@@ -13,12 +13,13 @@ Frontend application for Telaco Company’s website, built with React. This proj
 ## Demo
 
 A live demo of the application is available at:  
-[https://kahenisatima.github.io/telaco-frontend/](https://your-username.github.io/telaco-frontend)
+[https://kahenisatima.github.io/telaco-frontend/](https://kahenisatima.github.io/telaco-frontend/)
+
 
 
 
 ## Setup and Installation
 
 1. Clone the repository:  
-   ```bash
-   git clone https://github.com/kahenisatima/telaco-frontend.git
+```bash
+git clone https://github.com/kahenisatima/telaco-frontend.git
