@@ -13,7 +13,7 @@ Frontend application for Telaco Company’s website, built with React. This proj
 ## Demo
 
 A live demo of the application is available at:  
-[https://KaheniSatima.github.io/telaco-frontend](https://your-username.github.io/telaco-frontend)
+[https://kahenisatima.github.io/telaco-frontend](https://your-username.github.io/telaco-frontend)
 
 *(Replace with your actual live URL once deployed)*
 
