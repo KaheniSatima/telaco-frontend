@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/telaco-frontend/static/css/main.ade5dae3.css",
+    "main.js": "/telaco-frontend/static/js/main.a726ba48.js",
+    "static/js/453.8ddfa2da.chunk.js": "/telaco-frontend/static/js/453.8ddfa2da.chunk.js",
+    "static/media/fa-solid-900.ttf": "/telaco-frontend/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/fa-brands-400.ttf": "/telaco-frontend/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/fa-solid-900.woff2": "/telaco-frontend/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/fa-brands-400.woff2": "/telaco-frontend/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/waste-disposal.jpeg": "/telaco-frontend/static/media/waste-disposal.cf0d2627a4e09ea715ec.jpeg",
+    "static/media/fa-regular-400.ttf": "/telaco-frontend/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/window-cleaning.jpeg": "/telaco-frontend/static/media/window-cleaning.2966616561877e084a8d.jpeg",
+    "static/media/about.jpg": "/telaco-frontend/static/media/about.6989828b72e85c5469ed.jpg",
+    "static/media/pressure-cleaning.jpeg": "/telaco-frontend/static/media/pressure-cleaning.26db5fd501deeb1e0ba1.jpeg",
+    "static/media/carpet-cleaning.jpeg": "/telaco-frontend/static/media/carpet-cleaning.803daae2a1b35d1b1c27.jpeg",
+    "static/media/booking.jpg": "/telaco-frontend/static/media/booking.a1c16f2b9c3c1422364c.jpg",
+    "static/media/blinds-cleaning.jpeg": "/telaco-frontend/static/media/blinds-cleaning.9e0536f25e2b99ea7a53.jpeg",
+    "static/media/background.jpeg": "/telaco-frontend/static/media/background.d9dd94e6bfb68885e86c.jpeg",
+    "static/media/laundry.jpeg": "/telaco-frontend/static/media/laundry.fce721cd4b3221015f12.jpeg",
+    "static/media/dining-cleaning.jpeg": "/telaco-frontend/static/media/dining-cleaning.5bc09ee20b1a0b550dca.jpeg",
+    "static/media/welcome.jpg": "/telaco-frontend/static/media/welcome.131aa066f05f875a4b0a.jpg",
+    "static/media/sofa-cleaning.jpeg": "/telaco-frontend/static/media/sofa-cleaning.ddb8f500721d2a64fdc2.jpeg",
+    "static/media/matress-cleaning.jpeg": "/telaco-frontend/static/media/matress-cleaning.7fc713288302a5081ef3.jpeg",
+    "static/media/car-interior.jpeg": "/telaco-frontend/static/media/car-interior.a495542f7d298ba1e416.jpeg",
+    "static/media/services.jpg": "/telaco-frontend/static/media/services.e6954edaa998b680d526.jpg",
+    "static/media/post-construction.jpeg": "/telaco-frontend/static/media/post-construction.1cc73ad9ef2c50ec364f.jpeg",
+    "static/media/fumigation.jpeg": "/telaco-frontend/static/media/fumigation.75d45f0568df95914bcf.jpeg",
+    "static/media/home-cleaning.jpeg": "/telaco-frontend/static/media/home-cleaning.2e8c8162732f5a9f3de1.jpeg",
+    "static/media/floor-polishing.jpeg": "/telaco-frontend/static/media/floor-polishing.e1abc39082ca9cee681e.jpeg",
+    "static/media/fa-regular-400.woff2": "/telaco-frontend/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/office-cleaning.jpeg": "/telaco-frontend/static/media/office-cleaning.1456a4db670f3eef35e8.jpeg",
+    "static/media/fa-v4compatibility.ttf": "/telaco-frontend/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/telaco-frontend/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "/telaco-frontend/index.html",
+    "main.ade5dae3.css.map": "/telaco-frontend/static/css/main.ade5dae3.css.map",
+    "main.a726ba48.js.map": "/telaco-frontend/static/js/main.a726ba48.js.map",
+    "453.8ddfa2da.chunk.js.map": "/telaco-frontend/static/js/453.8ddfa2da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ade5dae3.css",
+    "static/js/main.a726ba48.js"
+  ]
+}
